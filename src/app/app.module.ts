@@ -3,16 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    DashboardModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[]
 })
 export class AppModule { }
