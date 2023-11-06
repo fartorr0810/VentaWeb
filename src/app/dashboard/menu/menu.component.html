@@ -1,3 +1,42 @@
+<style>
+/* Estilos para el menú de navegación */
+.navbar {
+  border-radius: 10px;
+  /* Agregar cualquier otro estilo que desees para el menú de navegación */
+}
+
+.navbar-toggler {
+  border: none;
+  /* Agregar cualquier otro estilo que desees para el botón del menú */
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  /* Estilos para el ícono del botón de menú */
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+  /* Asegúrate de incluir un icono SVG válido para el botón del menú */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 15px;
+  /* Ajusta los márgenes para los elementos de la lista según tu preferencia */
+}
+
+.nav-link {
+  transition: color 0.3s;
+  /* Cambia el color de los enlaces al pasar el ratón por encima si lo deseas */
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Cambia el color al pasar el ratón por encima si lo deseas */
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    margin: 10px 0;
+    /* Cambia los márgenes en pantallas más pequeñas si es necesario */
+  }
+}
+</style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

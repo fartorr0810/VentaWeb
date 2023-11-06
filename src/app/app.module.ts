@@ -6,13 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
-
+import { ServiciosComponent } from './dashboard/servicios/servicios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuienesSomosComponent
-  ],
+    QuienesSomosComponent,
+    ServiciosComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

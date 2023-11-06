@@ -1,4 +1,5 @@
 <style>
+    /* Estilos CSS para la sección "¿Quiénes Somos?" */
     body {
         background-color: #f8f9fa;
         color: #333;
@@ -6,22 +7,63 @@
 
     section {
         background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         padding: 30px;
         margin: 50px auto;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    section:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     }
 
     h2 {
         color: #007bff;
-        font-weight: 600;
-        margin-bottom: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
     }
 
     p {
-        font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 10px;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 992px) {
+        section {
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .img-container img {
+            border-radius: 8px;
+        }
     }
 </style>
 <section class="container">

@@ -1,0 +1,103 @@
+<style>
+
+ul.list-unstyled {
+        padding: 0;
+        list-style: none;
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+
+    ul.list-unstyled li {
+        padding-left: 20px;
+        position: relative;
+        line-height: 1.8;
+    }
+
+    ul.list-unstyled li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #007bff;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    /* Botón de la segunda columna */
+    .btn-warning {
+        background-color: white;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-warning:hover {
+        background-color: #f0ad4e; /* Naranja */
+        color: white; /* Texto se vuelve blanco al pasar el cursor */
+    }
+
+    /* Botón de la tercera columna */
+    .btn-success {
+        background-color: rgb(255, 255, 255);
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-success:hover {
+        background-color: #28a745; /* Verde */
+        color: white; /* Texto se vuelve blanco al pasar el cursor */
+    }
+
+
+</style>
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 shadow">
+          <div class="card-header bg-primary text-white">
+            <h4 class="my-0 font-weight-normal">Plan Básico</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">50€ <small class="text-muted">/ página</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Diseño y desarrollo de 1 página web</li>
+              <li>1 usuario administrador</li>
+              <li>Soporte por correo electrónico</li>
+              <li>Acceso a plantillas básicas personalizadas</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Contratar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow">
+          <div class="card-header bg-warning text-dark">
+            <h4 class="my-0 font-weight-normal">Plan Estándar</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">100€ <small class="text-muted">/ página</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Diseño y desarrollo de hasta 3 páginas web</li>
+              <li>3 usuarios administradores</li>
+              <li>Soporte por correo electrónico y telefónico</li>
+              <li>Acceso a plantillas avanzadas personalizadas</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-warning secondary">Contratar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow">
+          <div class="card-header bg-success text-white">
+            <h4 class="my-0 font-weight-normal">Plan Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">200€ <small class="text-muted">/ página</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Diseño y desarrollo de hasta 5 páginas web</li>
+              <li>5 usuarios administradores</li>
+              <li>Soporte por correo electrónico, telefónico y chat en vivo</li>
+              <li>Acceso a plantillas premium personalizadas</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-success">Contratar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
