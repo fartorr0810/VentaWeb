@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ServiciosComponent } from './dashboard/servicios/servicios.component';
+import { ContactoComponent } from './dashboard/contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuienesSomosComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    ContactoComponent
     ],
   imports: [
     BrowserModule,

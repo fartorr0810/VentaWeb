@@ -1,10 +1,3 @@
-<style>
-    /* Estilos CSS para la sección "¿Quiénes Somos?" */
-    body {
-        background-color: #f8f9fa;
-        color: #333;
-    }
-
     section {
         background-color: #fff;
         border-radius: 15px;
@@ -30,6 +23,32 @@
         font-size: 1.2rem;
         line-height: 1.8;
         margin-bottom: 20px;
+    }
+
+    .contact-info {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .contact-info p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .social-icons a {
+        color: #4267B2;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .social-icons a:hover {
+        color: #254588;
+        text-decoration: none;
     }
 
     .img-container {
@@ -61,21 +80,18 @@
             margin-bottom: 15px;
         }
 
+        .contact-info p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 8px;
+        }
+
         .img-container img {
             border-radius: 8px;
         }
     }
-</style>
-<section class="container" id="quienesSomos">
-    <div class="row">
-        <div class="col-lg-8 offset-lg-1 d-flex justify-content-center align-items-center">
-            <div class="col-lg-4 pr-lg-5 d-none d-lg-block">
-                <img src="../../assets/idea.png" class="img-fluid" alt="Imagen de la empresa">
-            </div>
-            <div class="col-lg-8 text-center">
-                <h2>¿Quiénes Somos?</h2>
-                <p>Somos una empresa dedicada a ofrecer servicios de diseño y desarrollo web. Nuestro objetivo es crear experiencias digitales atractivas y funcionales para nuestros clientes. Ofrecemos soluciones personalizadas que se adaptan a las necesidades individuales de cada proyecto, brindando soporte desde el diseño inicial hasta la implementación final.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    
